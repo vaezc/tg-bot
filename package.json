@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js"
+    "build": "node src/index.js"
   },
   "keywords": [],
   "author": "mo_ka",
   "license": "ISC",
   "dependencies": {
     "@notionhq/client": "^1.0.4",
+    "@vercel/node": "^1.15.2",
     "node-telegram-bot-api": "^0.57.0"
   }
 }
